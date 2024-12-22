@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+.out/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+*.lcov
+
+# Debug files
+*.tsbuildinfo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Next.js build output (if using Next.js)
+.next/
+
+# Nuxt.js build output (if using Nuxt.js)
+.nuxt/
+static/
+
+# SvelteKit build output (if using SvelteKit)
+.svelte-kit/
+
+# Storybook build output
+.storybook-static/
+
+# VSCode settings and launch files
+.vscode/
+
+# TypeScript declaration files
+*.d.ts
+
+# Generated files
+*.min.js
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore npm lock file
+package-lock.json

@@ -1,0 +1,27 @@
+{
+  "name": "web-fundamentals",
+  "version": "1.0.0",
+  "description": "Creating vanila js project using node and npm ",
+  "main": "server.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "node --experimental-modules ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "web-fundamentals"
+  },
+  "keywords": [
+    "javascript",
+    "html"
+  ],
+  "author": "nitin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "open": "^10.1.0"
+  },
+  "type": "module"
+}
